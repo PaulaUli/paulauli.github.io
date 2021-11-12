@@ -1,11 +1,57 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
-img {
-    position: absolute;
-    width: 44vw;
+body {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+svg {
+    width: 120%;
+}
+
+.main__photo {
+    position: fixed;
+    width: 38vw;
     bottom: 0;
     right: 0;
+}
+
+.main__info-container {
+    font-size: 1.6rem;
+    bottom: 10vh;
+    margin-left: 10vw;
+    font-weight: 400;
+    position: fixed;
+}
+
+.main__info-work {
+    margin-top: 2vh;
+    line-height: 2.4vw;
+}
+
+.main__company-logo {
+    width: 1.1vw;
+    border-radius: 50%;
+    margin-right: 1.3vw;
+}
+
+.main__info-projects {
+    margin-top: 2vh;
+}
+
+.main__link {
+    color: black;
+    font-weight: 700;
+}
+
+.main__bold-font {
+    font-weight: 900;
+}
+
+a {
+    color: black;
 }
